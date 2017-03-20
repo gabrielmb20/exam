@@ -1,4 +1,50 @@
+h1 {
+	color: black;
+}
+
+h2 {
+	color: black;
+	font-size: 150%;
+}
+
+h3 {
+	color: blue;
+	font-size: 120%
+}
+
+h4 {
+	color: green;
+	font-size: 100%
+}
+
+.header {
+	float: left;
+}
+
+.navigation {
+	float: right;
+}
+
+#container {
+	width: 990px;  
+	margin: 0 auto;
+}
+
 .main-section {
 	float: left;
 	width: 40%;
+}
+
+.sub-section-center {
+	float: left;
+	width: 30%;
+}
+
+.sub-section-right {
+	float: left;
+	width: 30%;
+}
+
+.spanred {
+	color:red;
 }
