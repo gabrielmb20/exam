@@ -1,0 +1,20 @@
+@media print {
+
+    .img-main,.img-center,.img-right, nav {
+        display: none !important; 
+        height: 0;
+    }
+ 
+    .content-container-main {
+        width: 100%;
+    }
+
+    .main-section,.sub-section-center,.sub-section-right{
+        width: 100%;
+    }
+
+    .boxmodel {
+        background-color: white;
+        border: none;
+    }
+}

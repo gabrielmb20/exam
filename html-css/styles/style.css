@@ -1,31 +1,36 @@
 h1 {
 	color: black;
-	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 h2 {
 	color: black;
 	font-size: 150%;
 	padding: 4px;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h3 {
 	color: blue;
 	font-size: 120%;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h4 {
 	color: green;
 	font-size: 100%;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h5 {
 	color: red;
 	font-size: 90%;
-	margin-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 hr {
@@ -46,7 +51,7 @@ footer {
 	position: fixed;
 	bottom: 0px;
 	height: 60px;
-   	width: 100%;
+   	width: 1000px;
    	background: white;
 }
 
@@ -54,6 +59,12 @@ img {
 	margin-top: 5px;
 	margin-bottom: 10px;
 }
+
+a:active{
+	color: black;
+	font-family: bold;
+}
+
 
 .header {
 	float: left;
@@ -121,3 +132,11 @@ img {
     background-color: #FF7F50;	
 }
 
+.content-footer {
+	margin: auto;
+	text-align: center;
+}
+
+.p-footer{
+	text-align: center;
+}

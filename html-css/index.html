@@ -7,6 +7,16 @@
         </title>
         <link rel="stylesheet" type="text/css" href="styles/reset.css">
         <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+        <!-- mobile first -->
+        <!-- <link rel="stylesheet" type="text/css" href="styles/mobile_first.css"> -->
+
+        <!-- desktop first -->
+        <!-- <link rel="stylesheet" type="text/css" href="styles/desktop_first.css"> -->
+
+        <!-- print -->
+        <link rel="stylesheet" type="text/css" href="styles/print.css" media="print">
+
     </head>
 
     <body>
@@ -77,7 +87,7 @@
                             Sub-section Right
                         </h3>
                         <p>
-                            We open at <span class="spanred">10:00</span>
+                            We open at <span class="spanred">10:00</span> every morning.
                         </p>
                         <p> 
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eleifend tincidunt ornare. Curabitur eleifend posuere ligula quis tristique. Duis blandit purus quis lorem condimentum sollicitudin. Nullam vel condimentum tellus. Quisque magna felis, lobortis non nunc at, imperdiet rhoncus sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.Quisque eu nunc finibus, vehicula est et, dapibus leo. Integer pretium, dolor sed ultricies mattis, magna ipsum rutrum elit, id rutrum leo purus sed neque. Quisque magna felis, lobortis non nunc at, imperdiet rhoncus sem.
@@ -105,18 +115,21 @@
                         </div> <!-- content-container -->
                     </div> <!-- sub-sub-sub-section -->
                 </div> <!-- sub-section-right -->
+                
                 <!-- footer --> 
                 <footer>
-                    <hr />
-                    <nav>
-                        <a href="">HOME</a> |
-                        <a href="">ABOUT</a> |
-                        <a href="">COURSES</a> |
-                        <a href="">CONTACT</a>
-                    </nav>
-                    <p>
-                        Copyright &copy 2017. Curso de Programación Web.
-                    </p>
+                    <div class="content-footer">
+                        <hr />
+                        <nav>
+                            <a class="nav-selected" href="">HOME</a> |
+                            <a href="">ABOUT</a> |
+                            <a href="">COURSES</a> |
+                            <a href="">CONTACT</a>
+                        </nav>
+                        <p class="p-footer">
+                            Copyright &copy 2017. Curso de Programación Web.
+                        </p>
+                    </div>
                 </footer> <!-- footer -->
 
             </div> <!-- content-container-main -->
