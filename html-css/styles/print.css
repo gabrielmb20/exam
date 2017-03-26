@@ -1,16 +1,22 @@
 @media print {
 
-    .img-main,.img-center,.img-right, nav {
+    .img-main,.img-center,.img-right, .main-p2, .main-p3, nav {
         display: none !important; 
         height: 0;
     }
  
+    .main-p1::after {
+        content: "...";
+    }
     .content-container-main {
         width: 100%;
         padding: 0;
         margin: 0 auto;
     }
 
+    p{
+        font-size: 109%;
+    }
     .main-section,.sub-section-center,.sub-section-right{
         width: 100%;
         position: static;
