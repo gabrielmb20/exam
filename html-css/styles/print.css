@@ -7,10 +7,13 @@
  
     .content-container-main {
         width: 100%;
+        padding: 0;
+        margin: 0 auto;
     }
 
     .main-section,.sub-section-center,.sub-section-right{
         width: 100%;
+        position: static;
     }
 
     .boxmodel {

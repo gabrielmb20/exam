@@ -66,12 +66,29 @@ a:active{
 }
 
 
+.current a, .current { color: black; text-decoration: none; font-weight: bold;}
+
+
+
 .header {
 	float: left;
 }
 
 .navigation {
 	float: right;
+}
+
+
+.navigation ul li:not(:last-child)::after {
+  content: " |";
+}
+
+.navigation ul li {
+	float: left;
+}
+
+.navigation ul li{
+	margin: 20px 5px;
 }
 
 #container {
@@ -103,6 +120,11 @@ a:active{
 	margin-right: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.span {
+	font-weight: bold
+	color: black;
 }
 
 .spanred {
