@@ -20,6 +20,7 @@
     .main-section,.sub-section-center,.sub-section-right{
         width: 100%;
         position: static;
+        padding-bottom: 0px;
     }
 
     .boxmodel {

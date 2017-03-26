@@ -50,10 +50,13 @@ html,body {
 footer {
 	position: fixed;
 	bottom: 0px;
-	height: 60px;
    	width: 100%;
-   	background: white;
+   	background: white; 
+	text-align: center;
 }
+
+footer p {
+	text-align: center;}
 
 img {
 	margin-top: 5px;
@@ -103,17 +106,20 @@ a:active{
 .main-section {
 	float: left;
 	width: 36%;
+	padding-bottom:40px;
 }
 
 .sub-section-center {
 	float: left;
 	width: 32%;
+	padding-bottom:40px;
 }
 
 .sub-section-right {
 	float: left;
 	width: 32%;
 	margin-bottom: 60px;
+	padding-bottom:40px;
 }
 
 .content-container {
@@ -154,11 +160,5 @@ a:active{
     background-color: #FF7F50;	
 }
 
-.content-footer {
-	margin: auto;
-	text-align: center;
-}
 
-.p-footer{
-	text-align: center;
-}
+
