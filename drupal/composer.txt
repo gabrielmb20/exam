@@ -1,0 +1,9 @@
+https://getcomposer.org/download/
+
+https://drupal.stackexchange.com/questions/181162/how-to-install-the-commerceguys-libraries-for-drupal-commerce-2-x
+
+php composer.phar update
+php composer.phar dump-autoload
+php composer.phar update drupal/address --with-dependencies
+php composer.phar  require "drupal/address"
+
