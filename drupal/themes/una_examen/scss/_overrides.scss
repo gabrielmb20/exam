@@ -18,6 +18,12 @@
 // jQuery UI style overrides.
 @import "jquery-ui/autocomplete";
 
+h1 {
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+}
+
 ol, ul {
   padding-left: 1.5em;
   .popover &:last-child {
@@ -67,3 +73,4 @@ p:last-child,
     margin-top: 0;
   }
 }
+
