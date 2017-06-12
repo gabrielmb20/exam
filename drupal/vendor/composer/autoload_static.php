@@ -24,6 +24,10 @@ class ComposerStaticInitDrupal8
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'l' => 
+        array (
+            'libphonenumber\\' => 15,
+        ),
         'Z' => 
         array (
             'Zumba\\Mink\\Driver\\' => 18,
@@ -37,6 +41,10 @@ class ComposerStaticInitDrupal8
         array (
             'Wikimedia\\Composer\\' => 19,
             'Webmozart\\Assert\\' => 17,
+        ),
+        'T' => 
+        array (
+            'Twig\\' => 5,
         ),
         'S' => 
         array (
@@ -78,6 +86,7 @@ class ComposerStaticInitDrupal8
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
             'Goutte\\' => 7,
+            'Giggsey\\Locale\\' => 15,
         ),
         'D' => 
         array (
@@ -93,7 +102,6 @@ class ComposerStaticInitDrupal8
         array (
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
-            'CommerceGuys\\Zone\\' => 18,
             'CommerceGuys\\Intl\\' => 18,
             'CommerceGuys\\Enum\\' => 18,
             'CommerceGuys\\Addressing\\' => 24,
@@ -115,6 +123,10 @@ class ComposerStaticInitDrupal8
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+        ),
+        'libphonenumber\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/giggsey/libphonenumber-for-php/src',
         ),
         'Zumba\\Mink\\Driver\\' => 
         array (
@@ -147,6 +159,10 @@ class ComposerStaticInitDrupal8
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
         'Symfony\\Polyfill\\Php55\\' => 
         array (
@@ -264,6 +280,10 @@ class ComposerStaticInitDrupal8
         array (
             0 => __DIR__ . '/..' . '/fabpot/goutte/Goutte',
         ),
+        'Giggsey\\Locale\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/giggsey/locale/src',
+        ),
         'Drupal\\Driver\\' => 
         array (
             0 => __DIR__ . '/../..' . '/drivers/lib/Drupal/Driver',
@@ -299,10 +319,6 @@ class ComposerStaticInitDrupal8
         'Composer\\Installers\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
-        ),
-        'CommerceGuys\\Zone\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/commerceguys/zone/src',
         ),
         'CommerceGuys\\Intl\\' => 
         array (
