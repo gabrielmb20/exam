@@ -775,3 +775,4 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_AFYzG0W82FuKQcpHboa-mVjf4_lvlOngKblMmM8QDHb1WcvN_TQZiSlSnQ_XevcHq-DzGfJF-g/sync';
+$config ['system.site'] ['name'] = 'Doctores de Costa Rica';
