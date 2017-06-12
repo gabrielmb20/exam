@@ -11,6 +11,7 @@ regions:
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
   highlighted: 'Highlighted'
+  slider: 'Slider'
   help: 'Help'
   content: 'Content'
   sidebar_first: 'Primary'
